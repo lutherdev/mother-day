@@ -45,3 +45,12 @@ h1{
     padding: 10px;
     background-color: #fff0f5;
 }
+
+@keyframes heartbeat {
+0%, 100% {
+    transform: scale(1);
+}
+50% {
+    transform: scale(1.3);
+}
+}
